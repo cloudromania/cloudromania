@@ -1,16 +1,19 @@
+/* Fundal general și text */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #0f0f0f;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
+/* Containerul central */
 .container {
-  padding: 30px;
+  padding: 40px 20px;
 }
 
+/* Imaginea banner */
 .banner {
   max-width: 100%;
   height: auto;
@@ -18,27 +21,33 @@ body {
   box-shadow: 0 0 20px yellow;
 }
 
+/* Titlul principal */
 h1 {
-  font-size: 2.5em;
-  margin-top: 20px;
+  font-size: 2.8em;
+  margin-top: 25px;
   color: #ffd700;
 }
 
+/* Textul de sub titlu */
 p {
-  font-size: 1.2em;
-  margin: 10px 0 30px 0;
+  font-size: 1.3em;
+  margin: 15px 0 30px 0;
 }
 
+/* Butonul de Discord */
 .discord-btn {
+  display: inline-block;
   background-color: #7289da;
   color: white;
-  padding: 15px 25px;
+  padding: 15px 30px;
   text-decoration: none;
+  font-size: 1.2em;
   font-weight: bold;
   border-radius: 8px;
   transition: background 0.3s ease;
 }
 
+/* Efect când treci cu mouse-ul peste buton */
 .discord-btn:hover {
   background-color: #5b6eae;
 }
